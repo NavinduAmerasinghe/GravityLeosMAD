@@ -10,5 +10,6 @@ public class navindu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navindu);
+        //commit 2
     }
 }
