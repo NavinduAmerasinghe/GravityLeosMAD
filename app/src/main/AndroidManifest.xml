@@ -9,20 +9,54 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GravityLeosMAD">
-
         <activity
-            android:name=".Heshan"
-            android:exported="true" />
-
-        <activity android:name=".navindu"></activity>
-
-        <activity android:name=".MainActivity">
+            android:name=".DeliveryHome"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".PickAndGoCreate"
+            android:exported="true" />
+        <activity
+            android:name=".PickAndGoUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".PickAndGoViewPage"
+            android:exported="true" />
+        <activity
+            android:name=".PickAndGoView"
+            android:exported="true"/>
+
+
+
+        <activity
+            android:name=".CashOnDeliveryCreate"
+            android:exported="true" />
+        <activity
+            android:name=".CashOnDeliveryViewPage"
+            android:exported="true"/>
+
+        <activity
+            android:name=".CashOnDeliveryUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".CashOnDeliverView"
+            android:exported="true"/>
+
+
+
+
+        <activity
+            android:name=".Heshan"
+            android:exported="true" />
+        <activity android:name=".navindu" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

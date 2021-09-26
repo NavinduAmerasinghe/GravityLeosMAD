@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PickAndGoViewPage">
+
+    <TextView
+        android:id="@+id/view22"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:hint="Pick Up Time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <TextView
+        android:id="@+id/view33"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:hint="Pick Up Location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <TextView
+        android:id="@+id/view44"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:hint="Phone Number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <TextView
+        android:id="@+id/view11"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:hint="Pick Up Date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <ImageButton
+        android:id="@+id/deleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825"
+        app:srcCompat="@drawable/icons8_delete_bin_48" />
+
+    <ImageButton
+        android:id="@+id/editButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.324"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825"
+        app:srcCompat="@drawable/icons8_edit_48" />
+</androidx.constraintlayout.widget.ConstraintLayout>
