@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GravityLeosMAD">
+        <activity android:name=".payment1">
         <activity android:name=".senuri"></activity>
         <activity android:name=".Sachini" />
         <activity
@@ -16,12 +17,21 @@
             android:exported="true" />
         <activity android:name=".navindu" />
         <activity android:name=".MainActivity">
+ 
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+        <activity android:name=".payment2" />
+
+<!--        <activity android:name=".payment2">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+<!--        <activity android:name=".payment1" />-->
     </application>
 
 </manifest>
