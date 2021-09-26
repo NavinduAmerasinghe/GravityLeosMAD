@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GravityLeosMAD">
         <activity android:name=".payment1">
+        <activity android:name=".senuri"></activity>
+        <activity android:name=".Sachini" />
+        <activity
+            android:name=".Heshan"
+            android:exported="true" />
+        <activity android:name=".navindu" />
+        <activity android:name=".MainActivity">
+ 
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
