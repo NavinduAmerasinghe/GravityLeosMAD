@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".payment.payment2">
+
+    <TextView
+        android:id="@+id/tv_cname"
+        android:layout_width="278dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/tv_cname"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/et_cname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_cname"
+        android:layout_width="267dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/tv_cno"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cname" />
+
+    <TextView
+        android:id="@+id/tv_cno"
+        android:layout_width="266dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_cno"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/et_cno"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_cname" />
+
+    <EditText
+        android:id="@+id/et_cno"
+        android:layout_width="272dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/et_cno"
+        app:layout_constraintBottom_toTopOf="@+id/tv_country"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cno" />
+
+    <TextView
+        android:id="@+id/tv_country"
+        android:layout_width="266dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_country"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/et_country"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_cno" />
+
+    <EditText
+        android:id="@+id/et_country"
+        android:layout_width="265dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/et_country"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_country" />
+
+    <TextView
+        android:id="@+id/tv_cvc"
+        android:layout_width="252dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_cvc"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_country" />
+
+    <EditText
+        android:id="@+id/et_cvc"
+        android:layout_width="266dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:ems="3"
+        android:inputType="number"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:text="@string/et_cvc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cvc" />
+
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="265dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="4dp"
+        android:focusable="false"
+        android:hint="Select Date"
+        android:inputType="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_expdate" />
+
+    <TextView
+        android:id="@+id/tv_expdate"
+        android:layout_width="256dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_expdate"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_cvc" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/btn_submit"
+        app:backgroundTint="@color/submit"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_update"
+        app:layout_constraintEnd_toStartOf="@+id/btn_delete"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_update" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="105dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/btn_update"
+        app:backgroundTint="@color/update"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_retrieve"
+        app:layout_constraintEnd_toStartOf="@+id/btn_submit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_retrieve" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="83dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/btn_delete"
+        app:backgroundTint="@color/Delete"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_submit" />
+
+    <Button
+        android:id="@+id/btn_retrieve"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:onClick="Ret"
+        android:text="@string/btn_retrieve"
+        app:backgroundTint="@color/retrieve"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="476dp"
+        android:layout_height="777dp"
+        android:alpha="0.3"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background2" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbtn_back"
+        android:layout_width="58dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:onClick="openFirst"
+        app:backgroundTint="@color/Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_retrieve"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbtn_continue"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        app:backgroundTint="@color/submit"
+        app:layout_constraintStart_toEndOf="@+id/fbtn_back"
+        app:layout_constraintTop_toBottomOf="@+id/btn_submit"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
