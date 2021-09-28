@@ -80,4 +80,8 @@ public class CashOnDeliveryCreate extends AppCompatActivity {
                 });
 
     }
+    public void CashOnDeliveryCreatePageToHome(View view){
+        Intent intent = new Intent(this,CashOnDeliverView.class);
+        startActivity(intent);
+    }
 }

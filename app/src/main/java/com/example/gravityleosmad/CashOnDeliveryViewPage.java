@@ -94,4 +94,8 @@ public class CashOnDeliveryViewPage extends AppCompatActivity {
         Email.setText(cashOnDelivery5);
 
     }
+    public void CashOnDeliveryViewPageToCashOnDeliverView(View view){
+        Intent intent = new Intent(this,CashOnDeliverView.class);
+        startActivity(intent);
+    }
 }

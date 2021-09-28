@@ -80,4 +80,8 @@ public class PickAndGoCreate extends AppCompatActivity {
                 });
 
     }
+    public void CashOnDeliveryCreatePageToHome(View view){
+        Intent intent = new Intent(this,PickAndGoView.class);
+        startActivity(intent);
+    }
 }

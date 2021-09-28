@@ -92,4 +92,8 @@ public class PickAndGoViewPage extends AppCompatActivity {
         Number.setText(PickAndGo4);
 
     }
+    public void PickAndGoViewPageToPickAndGoView(View view){
+        Intent intent = new Intent(this,PickAndGoView.class);
+        startActivity(intent);
+    }
 }

@@ -10,6 +10,7 @@
         android:id="@+id/view22"
         android:layout_width="333dp"
         android:layout_height="50dp"
+        android:background="@drawable/border"
         android:hint="Pick Up Time"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,6 +24,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="9dp"
         android:layout_marginLeft="9dp"
+        android:background="@drawable/border"
         android:hint="Pick Up Location"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,6 +41,7 @@
         android:layout_marginLeft="9dp"
         android:layout_marginEnd="9dp"
         android:layout_marginRight="9dp"
+        android:background="@drawable/border"
         android:hint="Phone Number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,6 +53,7 @@
         android:id="@+id/view11"
         android:layout_width="333dp"
         android:layout_height="50dp"
+        android:background="@drawable/border"
         android:hint="Pick Up Date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,6 +66,7 @@
         android:id="@+id/deleButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTintMode="screen"
         android:scaleType="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,6 +80,7 @@
         android:id="@+id/editButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTintMode="screen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.324"
@@ -82,4 +88,62 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.825"
         app:srcCompat="@drawable/icons8_edit_48" />
+
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="333dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="333dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="333dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="333dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="65dp"
+        android:layout_height="58dp"
+        android:onClick="PickAndGoViewPageToPickAndGoView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
 </androidx.constraintlayout.widget.ConstraintLayout>

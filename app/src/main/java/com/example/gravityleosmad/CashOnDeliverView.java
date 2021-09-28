@@ -87,4 +87,9 @@ public class CashOnDeliverView extends AppCompatActivity {
         Intent intent = new Intent(this,CashOnDeliveryCreate.class);
         startActivity(intent);
     }
+
+    public void CashOnDeliveryViewPageToHome(View view){
+        Intent intent = new Intent(this,DeliveryHome.class);
+        startActivity(intent);
+    }
 }

@@ -86,4 +86,8 @@ public class PickAndGoView extends AppCompatActivity {
         Intent intent = new Intent(this, PickAndGoCreate.class);
         startActivity(intent);
     }
+    public void PickAndGoViewPageToHome(View view){
+        Intent intent = new Intent(this,DeliveryHome.class);
+        startActivity(intent);
+    }
 }
