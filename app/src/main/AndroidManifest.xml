@@ -10,54 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GravityLeosMAD">
 
-      
-        <activity android:name=".payment1">
-        <activity android:name=".senuri"></activity>
-        <activity android:name=".Sachini" />
-        <activity android:name=".navindu" />
-          
-        <activity android:name=".MainActivity">
-            <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-           </intent-filter>
-        </activity>
-
 
         <activity
-            android:name=".PickAndGoCreate"
-            android:exported="true" />
-        <activity
-            android:name=".PickAndGoUpdate"
-            android:exported="true" />
-        <activity
-            android:name=".PickAndGoViewPage"
-            android:exported="true" />
-        <activity
-            android:name=".PickAndGoView"
+            android:name=".senuri"
             android:exported="true"/>
         <activity
-            android:name=".CashOnDeliveryCreate"
+            android:name=".Delivery.PickAndGoCreate"
             android:exported="true" />
         <activity
-            android:name=".CashOnDeliveryViewPage"
+            android:name=".Delivery.PickAndGoUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".Delivery.PickAndGoViewPage"
+            android:exported="true" />
+        <activity
+            android:name=".Delivery.PickAndGoView"
             android:exported="true"/>
         <activity
-            android:name=".CashOnDeliveryUpdate"
+            android:name=".Delivery.CashOnDeliveryCreate"
             android:exported="true" />
         <activity
-            android:name=".CashOnDeliverView"
+            android:name=".Delivery.CashOnDeliveryViewPage"
             android:exported="true"/>
         <activity
-            android:name=".Heshan"
+            android:name=".Delivery.CashOnDeliveryUpdate"
             android:exported="true" />
         <activity
-            android:name=".DeliveryHome"
-            android:exported="true">
-     
-
-        <activity android:name=".payment2" />
-
+            android:name=".Delivery.CashOnDeliverView"
+            android:exported="true"/>
+        <activity
+            android:name=".Delivery.DeliveryHome"
+            android:exported="true"/>
 
     </application>
 

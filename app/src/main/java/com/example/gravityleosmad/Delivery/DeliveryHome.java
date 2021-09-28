@@ -1,10 +1,12 @@
-package com.example.gravityleosmad;
+package com.example.gravityleosmad.Delivery;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.gravityleosmad.R;
 
 public class DeliveryHome extends AppCompatActivity {
 
