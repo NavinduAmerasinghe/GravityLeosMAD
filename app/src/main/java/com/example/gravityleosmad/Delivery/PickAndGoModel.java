@@ -1,4 +1,4 @@
-package com.example.gravityleosmad;
+package com.example.gravityleosmad.Delivery;
 
 public class PickAndGoModel {
 

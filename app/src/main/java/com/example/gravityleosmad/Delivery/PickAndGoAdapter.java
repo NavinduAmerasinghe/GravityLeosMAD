@@ -1,4 +1,4 @@
-package com.example.gravityleosmad;
+package com.example.gravityleosmad.Delivery;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.gravityleosmad.R;
 import com.google.firebase.database.annotations.NotNull;
 
 import java.util.ArrayList;
