@@ -10,7 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GravityLeosMAD">
 
-
+        <activity 
+             android:name=".payment.payment1"
+             android:exported="true"/>
+        <activity 
+             android:name=".payment.payment2"
+             android:exported="true"/>
         <activity
             android:name=".senuri"
             android:exported="true"/>
