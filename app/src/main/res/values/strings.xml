@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">GravityLeosMAD</string>
+    <string name="tv_description">Almost Done!  Make Payment</string>
+    <string name="btn_back">back</string>
+    <string name="btn_confirm">confirm</string>
+    <string name="tv_desc">"Almost Done! "</string>
+    <string name="tv_descn">Almost Done! Make your payment through Credit Card</string>
+    <string name="btn_previous">Back</string>
+    <string name="btn_proceed">Confirm</string>
+    <string name="tv_cname">Card Holder\'s Name</string>
+    <string name="et_cname" />
+    <string name="tv_cno">Credit Card Number</string>
+    <string name="et_cno" />
+    <string name="tv_country">Country</string>
+    <string name="et_country" />
+    <string name="tv_cvc">CVC/CVV</string>
+    <string name="et_cvc" />
+    <string name="tv_expdate">Expiry Date</string>
+    <string name="et_expdate" />
+    <string name="btn_retrieve">"View "</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_submit">submit</string>
+    <string name="btn_delete">delete</string>
+    <string name="birthday">date</string>
+    <!--    <string name="birthday" />-->
+<!--    <item name="birthday" type="id">date</item>-->
 </resources>

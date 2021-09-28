@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="Delete">#F0451F </color>
+    <color name="submit">#EDF01F  </color>
+    <color name="Back">#EDF01F</color>
+    <color name="show">#EDF01F</color>
+    <color name="retrieve">#DAC306</color>
+    <color name="update">#E66C06</color>
+
+
 </resources>
