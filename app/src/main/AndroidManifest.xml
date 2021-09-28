@@ -9,9 +9,44 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GravityLeosMAD">
-        <activity android:name=".payment.payment1">
-        </activity>
-        <activity android:name=".payment.payment2" />
+
+        <activity 
+             android:name=".payment.payment1"
+             android:exported="true"/>
+        <activity 
+             android:name=".payment.payment2"
+             android:exported="true"/>
+        <activity
+            android:name=".senuri"
+            android:exported="true"/>
+        <activity
+            android:name=".Delivery.PickAndGoCreate"
+            android:exported="true" />
+        <activity
+            android:name=".Delivery.PickAndGoUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".Delivery.PickAndGoViewPage"
+            android:exported="true" />
+        <activity
+            android:name=".Delivery.PickAndGoView"
+            android:exported="true"/>
+        <activity
+            android:name=".Delivery.CashOnDeliveryCreate"
+            android:exported="true" />
+        <activity
+            android:name=".Delivery.CashOnDeliveryViewPage"
+            android:exported="true"/>
+        <activity
+            android:name=".Delivery.CashOnDeliveryUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".Delivery.CashOnDeliverView"
+            android:exported="true"/>
+        <activity
+            android:name=".Delivery.DeliveryHome"
+            android:exported="true"/>
+
     </application>
 
 </manifest>
