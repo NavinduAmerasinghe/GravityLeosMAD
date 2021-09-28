@@ -23,5 +23,5 @@
     <string name="btn_delete">delete</string>
     <string name="birthday">date</string>
     <!--    <string name="birthday" />-->
-<!--    <item name="birthday" type="id">date</item>-->
+    <!--    <item name="birthday" type="id">date</item>-->
 </resources>
