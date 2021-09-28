@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "514360024969",
+    "firebase_url": "https://it20383152-default-rtdb.firebaseio.com",
+    "project_id": "it20383152",
+    "storage_bucket": "it20383152.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514360024969:android:9070f5fc29bdd7651a0b58",
+        "android_client_info": {
+          "package_name": "com.example.gravityleosmad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514360024969-egjajk3nttrhpsfe6heokboltgm6s3u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxuEaM9-ZxrtcqCPGv_s1kmtXbYcCxCcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514360024969-egjajk3nttrhpsfe6heokboltgm6s3u8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
