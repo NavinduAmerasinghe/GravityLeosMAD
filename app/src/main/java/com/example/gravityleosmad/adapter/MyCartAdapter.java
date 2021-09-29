@@ -97,7 +97,7 @@ public class MyCartAdapter extends RecyclerView.Adapter<MyCartAdapter.MyCartView
         updateFirebase(cartModel);
 
     }
-
+//validation My cart Adapter
     private void minusCartItem(MyCartViewHolder holder, CartModel cartModel) {
         if(cartModel.getQuantity() > 1)
         {
