@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -87,6 +88,9 @@ public class MyCartAdapter extends RecyclerView.Adapter<MyCartAdapter.MyCartView
 
     private void plusCartItem(MyCartViewHolder holder, CartModel cartModel) {
         cartModel.setQuantity(cartModel.getQuantity()+1);
+        if(cartModel.getQuantity()==10){
+            Toast.makeText(context.getApplicationContext(), "Maximum Item Reached", Toast.LENGTH_SHORT).show();
+        }
         cartModel.setTotalPrice(cartModel.getQuantity()*Float.parseFloat(cartModel.getPrice()));
 
         holder.txtQuantity.setText(new StringBuilder().append(cartModel.getQuantity()));
@@ -98,6 +102,9 @@ public class MyCartAdapter extends RecyclerView.Adapter<MyCartAdapter.MyCartView
         if(cartModel.getQuantity() > 1)
         {
             cartModel.setQuantity(cartModel.getQuantity()-1);
+            if(cartModel.getQuantity()==0){
+                Toast.makeText(context.getApplicationContext(), "Minimum Item Reached", Toast.LENGTH_SHORT).show();
+            }
             cartModel.setTotalPrice(cartModel.getQuantity()*Float.parseFloat(cartModel.getPrice()));
 
             //update quantity
