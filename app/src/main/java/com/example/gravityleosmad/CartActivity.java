@@ -31,6 +31,8 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+
+//Cart Activity
 public class CartActivity extends AppCompatActivity implements ICartLoadListener {
 
     @BindView(R.id.recycler_cart)
